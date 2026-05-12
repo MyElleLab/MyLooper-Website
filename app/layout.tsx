@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import GridBackground from "./components/GridBackground";
+import AuroraBackground from "./components/AuroraBackground";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -55,7 +55,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
       </head>
       <body className="bg-mxf-bg text-mxf-text antialiased">
-        <GridBackground />
+        <AuroraBackground />
         <div className="relative z-10">
           {children}
         </div>

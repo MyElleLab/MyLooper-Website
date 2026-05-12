@@ -4,43 +4,14 @@ import { APP_STORE_URL } from "../constants";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-16 overflow-hidden">
-      <div
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
-        style={{
-          backgroundImage: `repeating-linear-gradient(
-            0deg,
-            transparent,
-            transparent 18px,
-            #f59e0b 18px,
-            #f59e0b 19px
-          ), repeating-linear-gradient(
-            90deg,
-            transparent,
-            transparent 18px,
-            #f59e0b 18px,
-            #f59e0b 19px
-          )`,
-        }}
-        aria-hidden="true"
-      />
-
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[480px] pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(ellipse at center, rgba(245,158,11,0.12) 0%, transparent 70%)",
-        }}
-        aria-hidden="true"
-      />
-
       <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
         <div className="flex justify-center">
           <Image
-            src="/app-icon.png"
+            src="/MyFlux.png"
             alt="MyFlux app icon"
-            width={96}
-            height={96}
-            className="rounded-[22px] shadow-[0_20px_60px_rgba(245,158,11,0.25)]"
+            width={120}
+            height={120}
+            className="rounded-[26px] shadow-[0_20px_60px_rgba(245,158,11,0.25)]"
             priority
           />
         </div>

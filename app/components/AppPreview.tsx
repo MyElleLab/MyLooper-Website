@@ -1,12 +1,10 @@
-"use client";
+import Image from "next/image";
 
-// Screenshot placeholders. Drop final screens into /public matching the filenames below.
-// LEO: replace these images with real MyFlux screenshots when ready.
+// Filenames intentionally match disk literally (note: "Library.jpeg" — Leo's typo, kept).
 const screens = [
-  { src: "/screen-library.png", alt: "MyFlux library screen", label: "Library" },
-  { src: "/screen-collection.png", alt: "MyFlux collection screen", label: "Collection" },
-  { src: "/screen-player.png", alt: "MyFlux player with loop", label: "Player & Loop" },
-  { src: "/screen-paywall.png", alt: "MyFlux paywall screen", label: "Pro" },
+  { src: "/Library.jpeg", alt: "MyFlux library screen", label: "Library" },
+  { src: "/Collection.jpeg", alt: "MyFlux collection screen", label: "Collection" },
+  { src: "/Settings.jpeg", alt: "MyFlux settings screen", label: "Settings" },
 ];
 
 export default function AppPreview() {
@@ -22,7 +20,7 @@ export default function AppPreview() {
           </p>
         </div>
 
-        <div className="flex flex-row items-center justify-center gap-6 overflow-x-auto pb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10 justify-items-center max-w-4xl mx-auto">
           {screens.map((s) => (
             <PhoneFrame key={s.src} {...s} />
           ))}
@@ -42,30 +40,17 @@ function PhoneFrame({
   label: string;
 }) {
   return (
-    <div className="flex flex-col items-center gap-3 flex-shrink-0" style={{ width: 220 }}>
+    <div className="flex flex-col items-center gap-3 w-full max-w-[240px]">
       <div
-        className="rounded-[2.5rem] border-[3px] border-[#2a2520] overflow-hidden shadow-2xl w-full bg-[#0b0a08] flex items-center justify-center"
-        style={{ height: 476 }}
+        className="rounded-[2.5rem] border-[3px] border-[#2a2520] overflow-hidden shadow-2xl w-full bg-[#0b0a08]"
+        style={{ aspectRatio: "9 / 19.5" }}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={src}
           alt={alt}
-          width={220}
-          height={476}
+          width={240}
+          height={520}
           className="w-full h-full object-cover object-top block"
-          onError={(e) => {
-            const t = e.currentTarget;
-            t.style.display = "none";
-            const parent = t.parentElement;
-            if (parent && !parent.querySelector(".placeholder")) {
-              const ph = document.createElement("div");
-              ph.className =
-                "placeholder w-full h-full flex items-center justify-center text-mxf-muted text-xs text-center px-4";
-              ph.textContent = `Screenshot placeholder — drop ${src.split("/").pop()} into /public`;
-              parent.appendChild(ph);
-            }
-          }}
         />
       </div>
       <span className="text-sm text-mxf-muted">{label}</span>
