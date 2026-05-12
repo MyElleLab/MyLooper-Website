@@ -40,3 +40,6 @@ next-env.d.ts
 # editor
 .idea/
 .vscode/
+
+# raw source assets (encoded outputs live in public/)
+temp/

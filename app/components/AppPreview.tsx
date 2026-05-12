@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-// Filenames intentionally match disk literally (note: "Library.jpeg" — Leo's typo, kept).
 const screens = [
   { src: "/Library.jpeg", alt: "MyFlux library screen", label: "Library" },
-  { src: "/Collection.jpeg", alt: "MyFlux collection screen", label: "Collection" },
+  { src: "/Collection.jpeg", alt: "MyFlux collections screen", label: "Collections" },
   { src: "/Settings.jpeg", alt: "MyFlux settings screen", label: "Settings" },
 ];
 
