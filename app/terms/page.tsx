@@ -25,139 +25,110 @@ export default function TermsPage() {
           <article className="space-y-8">
             <header className="space-y-2">
               <h1 className="text-4xl font-bold text-mxf-text">Terms of Use</h1>
-              <p className="text-sm text-mxf-muted">Last updated: May 12, 2026</p>
+              <p className="text-sm text-mxf-muted">Effective May 13, 2026</p>
             </header>
 
-            <div className="p-4 rounded-xl border border-mxf-border bg-mxf-amber-1/30">
-              <p className="text-sm text-mxf-muted italic">
-                LEO: replace this draft with reviewed legal text before
-                publishing. Counsel should verify governing law, EULA, and IAP
-                terms before shipping.
-              </p>
-            </div>
-
             <p className="text-mxf-muted leading-relaxed">
-              Welcome to MyFlux (&quot;the App&quot;). By downloading or using the
-              App, you agree to these terms.
+              By downloading and using MyFlux (&quot;the App&quot;), you agree
+              to these Terms of Use.
             </p>
 
-            <Section title="Acceptance of Terms">
+            <Section title="License">
               <p className="text-mxf-muted leading-relaxed">
-                By accessing or using MyFlux, you agree to be bound by these
-                Terms of Use. If you do not agree, do not use the App.
+                We grant you a limited, non-exclusive, non-transferable,
+                revocable license to use MyFlux on your iOS devices, solely for
+                personal, non-commercial purposes, subject to Apple&apos;s App
+                Store Terms of Service.
               </p>
             </Section>
 
-            <Section title="Description of Service">
-              <p className="text-mxf-muted leading-relaxed">
-                MyFlux is a video-organization app for iOS. It lets you group
-                videos from your camera roll into collections, loop single
-                clips or playlists, and revisit moments — all stored locally
-                on your device.
-              </p>
-            </Section>
-
-            <Section title="User Responsibilities">
-              <ul className="space-y-2 text-mxf-muted">
+            <Section title="Use Restrictions">
+              <p className="text-mxf-muted leading-relaxed">You agree not to:</p>
+              <ul className="mt-3 space-y-2 text-mxf-muted">
                 <ListItem>
-                  You are responsible for the content you organize in MyFlux
+                  Reverse engineer, decompile, or disassemble the App
                 </ListItem>
                 <ListItem>
-                  You retain all rights to the videos in your camera roll —
-                  MyFlux claims no ownership
+                  Modify, adapt, or create derivative works of the App
                 </ListItem>
                 <ListItem>
-                  You must not use the App for any unlawful purpose
+                  Remove or alter any copyright or proprietary notices
                 </ListItem>
-                <ListItem>
-                  You must not attempt to reverse-engineer, decompile, or
-                  tamper with the App
-                </ListItem>
-              </ul>
-            </Section>
-
-            <Section title="Data and Privacy">
-              <ul className="space-y-2 text-mxf-muted">
-                <ListItem>All data is stored locally on your device</ListItem>
-                <ListItem>
-                  We do not collect, transmit, or have access to any of your
-                  videos or collection data
-                </ListItem>
-                <ListItem>
-                  For full details, see our{" "}
-                  <Link href="/privacy" className="text-mxf-amber hover:underline">
-                    Privacy Policy
-                  </Link>
-                </ListItem>
+                <ListItem>Use the App for any unlawful purpose</ListItem>
               </ul>
             </Section>
 
             <Section title="Intellectual Property">
               <p className="text-mxf-muted leading-relaxed">
-                MyFlux, including its design, code, and visual assets, is the
-                intellectual property of its developer. You are granted a
-                limited, non-exclusive, non-transferable license to use the
-                App for personal, non-commercial purposes.
+                The App, including all related design, code, graphics, and
+                content, is owned by Leonardo Ferhati and protected by
+                copyright and other intellectual property laws.
               </p>
             </Section>
 
-            <Section title="In-App Purchases">
+            <Section title="Subscriptions">
               <p className="text-mxf-muted leading-relaxed">
-                MyFlux offers Pro features via in-app purchase — a $0.99
-                monthly subscription or a $9.99 lifetime unlock. All purchases
-                are processed by Apple through the App Store and are subject
-                to Apple&apos;s terms and conditions. Refunds are handled by
-                Apple per their refund policy.
+                MyFlux Pro is offered via an auto-renewable monthly
+                subscription and a one-time lifetime purchase, sold through
+                Apple&apos;s App Store. Subscriptions automatically renew until
+                cancelled. You can manage or cancel your subscription anytime
+                from Settings → Apple ID → Subscriptions on your device.
+              </p>
+              <p className="text-mxf-muted leading-relaxed">
+                Apple&apos;s standard subscription terms and conditions apply:{" "}
+                <a
+                  href="https://www.apple.com/legal/internet-services/itunes/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-mxf-amber hover:underline"
+                >
+                  apple.com/legal/internet-services/itunes
+                </a>
               </p>
             </Section>
 
             <Section title="Disclaimer of Warranties">
               <p className="text-mxf-muted leading-relaxed">
-                The App is provided &quot;as is&quot; without warranties of any
-                kind, express or implied. We do not guarantee that the App
-                will be error-free, uninterrupted, or free of harmful
-                components.
+                The App is provided &quot;as is&quot; and &quot;as
+                available&quot; without warranties of any kind, either express
+                or implied. We do not guarantee that the App will be
+                uninterrupted, error-free, or compatible with all devices or
+                iOS versions.
               </p>
             </Section>
 
             <Section title="Limitation of Liability">
               <p className="text-mxf-muted leading-relaxed">
-                To the maximum extent permitted by law, the developer shall
-                not be liable for any indirect, incidental, special, or
-                consequential damages arising from your use of the App,
-                including but not limited to data loss.
-              </p>
-            </Section>
-
-            <Section title="Data Loss">
-              <p className="text-mxf-muted leading-relaxed">
-                Since all data is stored locally on your device, we are not
-                responsible for data loss due to device failure, iOS updates,
-                app deletion, or any other cause. Your camera roll videos
-                themselves are managed by Apple Photos, not by MyFlux.
-              </p>
-            </Section>
-
-            <Section title="Modifications">
-              <p className="text-mxf-muted leading-relaxed">
-                We reserve the right to update these Terms at any time.
-                Continued use of the App after changes constitutes acceptance
-                of the new Terms. The latest version will always be available
-                at this page.
+                To the maximum extent permitted by applicable law, we shall not
+                be liable for any indirect, incidental, special, consequential,
+                or punitive damages, or any loss of profits, data, or use,
+                arising from your use of the App.
               </p>
             </Section>
 
             <Section title="Governing Law">
               <p className="text-mxf-muted leading-relaxed">
-                {/* LEO: confirm governing-law jurisdiction with counsel */}
                 These Terms are governed by the laws of Denmark, without
-                regard to conflict of law principles.
+                regard to conflict of law principles. Any disputes arising
+                from these Terms or your use of the App shall be resolved in
+                the courts of Copenhagen, Denmark. For consumers residing in
+                the European Union, mandatory local consumer protection laws
+                apply where they grant greater protection than these Terms.
+              </p>
+            </Section>
+
+            <Section title="Changes to These Terms">
+              <p className="text-mxf-muted leading-relaxed">
+                We may update these Terms from time to time. The
+                &quot;Effective&quot; date indicates when they were last
+                revised. Continued use of the App after changes constitutes
+                acceptance of the updated Terms.
               </p>
             </Section>
 
             <Section title="Contact">
               <p className="text-mxf-muted leading-relaxed">
-                For questions about these Terms:{" "}
+                Questions about these Terms:{" "}
                 <a
                   href={`mailto:${SUPPORT_EMAIL}`}
                   className="text-mxf-amber hover:underline"

@@ -26,130 +26,105 @@ export default function PrivacyPage() {
           <article className="space-y-8">
             <header className="space-y-2">
               <h1 className="text-4xl font-bold text-mxf-text">Privacy Policy</h1>
-              <p className="text-sm text-mxf-muted">Last updated: May 12, 2026</p>
+              <p className="text-sm text-mxf-muted">Effective May 13, 2026</p>
             </header>
 
-            <div className="p-4 rounded-xl border border-mxf-border bg-mxf-amber-1/30">
-              <p className="text-sm text-mxf-muted italic">
-                LEO: replace this draft with reviewed legal text before
-                publishing. The structure below is accurate, but should be
-                verified by counsel for GDPR/CCPA compliance.
-              </p>
-            </div>
-
             <p className="text-mxf-muted leading-relaxed">
-              MyFlux (&quot;the App&quot;) is committed to protecting your privacy.
-              This policy explains how we handle your data.
+              This Privacy Policy explains how MyFlux handles information when
+              you use our iOS application.
             </p>
 
             <Section title="The Short Version">
               <div className="p-4 rounded-xl border border-mxf-amber-dim bg-mxf-amber-1/20">
-                <p className="font-semibold text-mxf-amber">
-                  We don&apos;t collect any data. Everything stays on your device.
+                <p className="text-mxf-muted leading-relaxed">
+                  MyFlux does not collect, store, or transmit any personal data
+                  from your device. MyFlux does not use analytics, tracking, or
+                  advertising frameworks. All your videos and collection data
+                  stay on your iPhone.
                 </p>
               </div>
             </Section>
 
-            <Section title="What Data Is Stored">
+            <Section title="What MyFlux Accesses">
               <p className="text-mxf-muted leading-relaxed">
-                The App stores the following data locally on your iPhone:
+                MyFlux requests permission to access your iOS Photos library so
+                it can display and organize your videos. This access is
+                read-only and limited to your device. We do not upload, copy,
+                or transmit any video content to our servers or any third
+                party.
               </p>
-              <ul className="mt-3 space-y-2 text-mxf-muted">
-                <ListItem>
-                  Collection metadata (collection names, ordering, clip
-                  references)
-                </ListItem>
-                <ListItem>
-                  Playback preferences (loop mode, playback speed, sort order)
-                </ListItem>
-                <ListItem>
-                  App preferences (theme, onboarding status, paywall state)
-                </ListItem>
-              </ul>
-              <p className="mt-3 text-mxf-muted leading-relaxed">
-                MyFlux reads videos directly from your Photos library — it does
-                not duplicate or upload them. Collection data is stored using
-                iOS on-device storage. It never leaves your device.
-              </p>
-            </Section>
-
-            <Section title="What We Don't Collect">
-              <ul className="space-y-2 text-mxf-muted">
-                <ListItem>
-                  No personal information (name, email, phone, location)
-                </ListItem>
-                <ListItem>No usage analytics or crash reports</ListItem>
-                <ListItem>No advertising identifiers</ListItem>
-                <ListItem>No cookies or tracking pixels</ListItem>
-                <ListItem>No data is transmitted to any server</ListItem>
-              </ul>
-            </Section>
-
-            <Section title="Third-Party Services">
               <p className="text-mxf-muted leading-relaxed">
-                None. The App contains no third-party SDKs, analytics tools, ad
-                networks, or cloud services. The only network calls MyFlux
-                makes are to Apple&apos;s StoreKit for in-app purchases.
+                The list of which videos belong to which collection is stored
+                entirely in your device&apos;s local app database. This
+                information never leaves your phone.
               </p>
             </Section>
 
-            <Section title="Your Rights (GDPR / CCPA)">
-              <p className="text-mxf-muted leading-relaxed mb-4">
-                Under GDPR and CCPA, you have the right to:
-              </p>
-              <ul className="space-y-3 text-mxf-muted">
-                <ListItem>
-                  <strong className="text-mxf-text">Access</strong> your data:
-                  visible directly in the app at any time
-                </ListItem>
-                <ListItem>
-                  <strong className="text-mxf-text">Delete</strong> your data:
-                  remove collections in-app, or uninstall the app to wipe all
-                  data
-                </ListItem>
-                <ListItem>
-                  <strong className="text-mxf-text">Rectify</strong> your data:
-                  edit collections at any time within the app
-                </ListItem>
-              </ul>
-              <p className="mt-4 text-mxf-muted leading-relaxed">
-                Since all data is stored exclusively on your device, exercising
-                these rights requires no request to us — you have full control.
-              </p>
-            </Section>
-
-            <Section title="Data Retention">
+            <Section title="Subscriptions">
               <p className="text-mxf-muted leading-relaxed">
-                Your data persists on your device until you delete it within
-                the app or uninstall the app. Uninstalling permanently removes
-                all MyFlux data.
+                MyFlux Pro is offered through Apple&apos;s App Store as an
+                in-app purchase. We use RevenueCat to validate purchase
+                receipts with Apple — this is the only network communication
+                MyFlux performs. RevenueCat receives an Apple-issued anonymous
+                identifier and your purchase status to verify your
+                subscription. No personal information, email addresses, or
+                Apple ID details are shared.
+              </p>
+              <p className="text-mxf-muted leading-relaxed">
+                Apple&apos;s standard subscription terms apply. You can manage
+                and cancel your subscription at any time from Settings → Apple
+                ID → Subscriptions on your device.
+              </p>
+            </Section>
+
+            <Section title="No Analytics, No Tracking">
+              <p className="text-mxf-muted leading-relaxed">
+                MyFlux does not include any third-party analytics, advertising,
+                or tracking SDKs. We do not collect crash reports through third
+                parties. We may receive aggregated, anonymized crash reports
+                through Apple&apos;s first-party App Store Connect tools, which
+                contain no personally identifiable information.
               </p>
             </Section>
 
             <Section title="Children's Privacy">
               <p className="text-mxf-muted leading-relaxed">
-                The App does not knowingly collect data from children under 16.
-                Since no personal information is collected from any user, the
-                App is compliant with COPPA and GDPR age requirements.
+                MyFlux is not directed to children under 13. We do not
+                knowingly collect any data from anyone, including children.
+              </p>
+            </Section>
+
+            <Section title="Your Rights">
+              <p className="text-mxf-muted leading-relaxed">
+                Since MyFlux does not collect personal data, there is no
+                personal data to access, correct, or delete on our end. You can
+                delete all collection data stored on your device at any time
+                from MyFlux → Settings → Withdraw Consent & Delete Data.
               </p>
             </Section>
 
             <Section title="Changes to This Policy">
               <p className="text-mxf-muted leading-relaxed">
-                If we update this policy, we will post the revised version on
-                this page with an updated date.
+                We may update this policy from time to time. The
+                &quot;Effective&quot; date at the top indicates when it was
+                last revised. Continued use of MyFlux after changes constitutes
+                acceptance of the updated policy.
               </p>
             </Section>
 
             <Section title="Contact">
               <p className="text-mxf-muted leading-relaxed">
-                For privacy questions or concerns:{" "}
+                Questions about this policy:{" "}
                 <a
                   href={`mailto:${SUPPORT_EMAIL}`}
                   className="text-mxf-amber hover:underline"
                 >
                   {SUPPORT_EMAIL}
                 </a>
+              </p>
+              <p className="text-mxf-muted leading-relaxed">
+                MyFlux is developed by Leonardo Ferhati, based in Copenhagen,
+                Denmark.
               </p>
             </Section>
           </article>
@@ -174,14 +149,5 @@ function Section({
       </h2>
       {children}
     </section>
-  );
-}
-
-function ListItem({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex items-start gap-2">
-      <span className="mt-1 w-1.5 h-1.5 rounded-full bg-mxf-amber flex-shrink-0" />
-      <span>{children}</span>
-    </li>
   );
 }

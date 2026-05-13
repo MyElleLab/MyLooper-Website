@@ -2,37 +2,62 @@
 
 import { useState } from "react";
 
-const faqs = [
+const faqs: { question: string; answer: string; link?: { text: string; href: string } }[] = [
   {
-    question: "Does MyFlux upload my videos anywhere?",
+    question: "How do I add videos to MyFlux?",
     answer:
-      "No. MyFlux reads videos directly from your camera roll and stores collection metadata locally on your device. Nothing is uploaded, synced, or sent to any server. Ever.",
+      "MyFlux reads videos directly from your iPhone's Photos library. Tap any video in the Library tab to add it to a collection. There's nothing to import or upload — MyFlux just shows you what's already on your phone.",
+  },
+  {
+    question: "How do I create a collection?",
+    answer:
+      "Go to the Collections tab and tap the + button. Give it a name, then start adding videos from your Library.",
+  },
+  {
+    question: "Are my videos uploaded anywhere?",
+    answer:
+      "No. Everything stays on your iPhone. MyFlux has no cloud, no servers, and no accounts. Your camera roll never leaves your device.",
     link: { text: "Privacy Policy", href: "/privacy" },
   },
   {
-    question: "What's the difference between Monthly and Lifetime?",
+    question: "What's included in MyFlux Pro?",
     answer:
-      "Both unlock the same Pro features. Monthly is $0.99/month — billed by Apple, cancel anytime. Lifetime is a one-time $9.99 — pay once, keep forever, no subscription to manage.",
+      "Pro removes the 3-collection limit for free users, plus priority support and access to all future features. Available as a $0.99/month subscription or a $9.99 one-time lifetime purchase.",
   },
   {
-    question: "Can I loop a playlist of clips?",
+    question: "How do I cancel my subscription?",
     answer:
-      "Yes. MyFlux supports both single-clip loop (replay the same video) and playlist loop (cycle through a whole collection). Loop state can be toggled from the player.",
+      "On your iPhone: Settings → Apple ID → Subscriptions → MyFlux → Cancel. Apple handles all subscriptions directly.",
   },
   {
-    question: "Does MyFlux use any analytics or tracking?",
+    question: "I bought Pro on a different device. How do I restore it?",
     answer:
-      "No. There are no third-party SDKs, analytics tools, ad networks, or trackers in the app. The only network call MyFlux makes is to Apple's StoreKit for in-app purchases.",
+      "Open MyFlux → Settings → Restore Purchases. Make sure you're signed into the same Apple ID you used for the original purchase.",
   },
   {
-    question: "Will my collections sync across devices?",
+    question: "How do I request a refund?",
     answer:
-      "Not today. MyFlux is intentionally device-local. iCloud-based sync is on the roadmap, but it would always be opt-in and end-to-end private.",
+      "Apple handles all refunds. Visit reportaproblem.apple.com on any device, sign in, and request a refund for your MyFlux purchase. We have no control over the refund decision, but if you have concerns, email us at support@getmyflux.com and we'll do our best to help.",
   },
   {
-    question: "Will there be an Android version?",
+    question: "Where is my data stored?",
     answer:
-      "Not currently. MyFlux is focused on iOS for now. Building one platform well beats two platforms poorly.",
+      "All collection information is stored locally on your iPhone in MyFlux's app database. If you uninstall the app, all collection data is deleted with it. Your videos in the Photos library are not affected — they belong to iOS, not to MyFlux.",
+  },
+  {
+    question: "How do I delete all my data?",
+    answer:
+      "Open MyFlux → Settings → Withdraw Consent & Delete Data. This deletes all your collections and resets the app to its initial state. Your videos in the Photos library are not affected.",
+  },
+  {
+    question: "I have a feature idea or found a bug.",
+    answer:
+      "Email support@getmyflux.com — we read every message and always appreciate user feedback.",
+  },
+  {
+    question: "Can I get MyFlux on Android?",
+    answer:
+      "Currently iOS only. No Android plans at this time.",
   },
 ];
 
