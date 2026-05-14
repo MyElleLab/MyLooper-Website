@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const screens = [
   { src: "/Library.jpeg", alt: "MyFlux library screen", label: "Library" },
-  { src: "/Collection.jpeg", alt: "MyFlux collections screen", label: "Collections" },
-  { src: "/Settings.jpeg", alt: "MyFlux settings screen", label: "Settings" },
+  { src: "/Collections.jpeg", alt: "MyFlux collections screen", label: "Collections" },
+  { src: "/Loop.jpeg", alt: "MyFlux loop screen", label: "Loop videos/collections" },
 ];
 
 export default function AppPreview() {
