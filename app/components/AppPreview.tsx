@@ -1,11 +1,5 @@
 import Image from "next/image";
 
-const screens = [
-  { src: "/Library.jpeg", alt: "MyFlux library screen", label: "Library" },
-  { src: "/Collections.jpeg", alt: "MyFlux collections screen", label: "Collections" },
-  { src: "/Loop.jpeg", alt: "MyFlux loop screen", label: "Loop videos/collections" },
-];
-
 export default function AppPreview() {
   return (
     <section className="px-6 py-24">
@@ -19,40 +13,17 @@ export default function AppPreview() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10 justify-items-center max-w-4xl mx-auto">
-          {screens.map((s) => (
-            <PhoneFrame key={s.src} {...s} />
-          ))}
+        <div className="mx-auto max-w-4xl">
+          <Image
+            src="/MyFlux - Promo v0.png"
+            alt="MyFlux on iPhone — Library, Collections, and Loop screens"
+            width={1448}
+            height={1086}
+            className="w-full h-auto"
+            priority
+          />
         </div>
       </div>
     </section>
-  );
-}
-
-function PhoneFrame({
-  src,
-  alt,
-  label,
-}: {
-  src: string;
-  alt: string;
-  label: string;
-}) {
-  return (
-    <div className="flex flex-col items-center gap-3 w-full max-w-[240px]">
-      <div
-        className="rounded-[2.5rem] border-[3px] border-[#2a2520] overflow-hidden shadow-2xl w-full bg-[#0b0a08]"
-        style={{ aspectRatio: "9 / 19.5" }}
-      >
-        <Image
-          src={src}
-          alt={alt}
-          width={240}
-          height={520}
-          className="w-full h-full object-cover object-top block"
-        />
-      </div>
-      <span className="text-sm text-mxf-muted">{label}</span>
-    </div>
   );
 }
