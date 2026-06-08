@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://getmyflux.com"),
   title: "MyFlux — All your videos, beautifully organized.",
   description:
     "Collect, loop, and revisit the moments that matter — all from your camera roll. Fully private — everything stays on your device.",
