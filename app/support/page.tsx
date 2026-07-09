@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
-  title: "Support — MyFlux",
-  description: "Get help with MyFlux. FAQ, contact, and more.",
+  title: "Support — MyVideoLooper",
+  description: "Get help with MyVideoLooper. FAQ, contact, and more.",
 };
 
 export default function SupportPage() {
@@ -45,7 +45,7 @@ export default function SupportPage() {
           </section>
 
           <section className="p-6 rounded-xl border border-mxf-border bg-mxf-surface space-y-3 text-sm text-mxf-muted leading-relaxed">
-            <p>MyFlux is developed by Leonardo Ferhati in Copenhagen.</p>
+            <p>MyVideoLooper is developed by Leonardo Ferhati in Copenhagen.</p>
             <p>
               Privacy Policy:{" "}
               <Link href="/privacy" className="text-mxf-amber hover:underline">

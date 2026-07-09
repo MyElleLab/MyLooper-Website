@@ -90,7 +90,7 @@ export default function Pricing() {
                     : "bg-mxf-text text-mxf-bg hover:bg-mxf-amber"
                 }`}
               >
-                Get MyFlux
+                Get MyVideoLooper
               </a>
             </div>
           ))}

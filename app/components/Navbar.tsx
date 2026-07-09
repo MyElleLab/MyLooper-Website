@@ -21,13 +21,13 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <Image
             src="/app-icon.png"
-            alt="MyFlux icon"
+            alt="MyVideoLooper icon"
             width={32}
             height={32}
             className="rounded-lg"
           />
           <span className="font-semibold text-mxf-text group-hover:text-mxf-amber transition-colors">
-            MyFlux
+            MyVideoLooper
           </span>
         </Link>
 

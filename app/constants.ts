@@ -1,4 +1,4 @@
-// App-wide constants for MyFlux.
+// App-wide constants for MyVideoLooper.
 // NOTE: Apple ID 6761893510 is the live App Store ID.
 export const APP_STORE_URL = "https://apps.apple.com/app/id6761893510";
 export const SUPPORT_EMAIL = "support@getmyflux.com";

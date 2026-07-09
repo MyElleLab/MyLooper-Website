@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://getmyflux.com"),
-  title: "MyFlux — All your videos, beautifully organized.",
+  title: "MyVideoLooper — All your videos, beautifully organized.",
   description:
     "Collect, loop, and revisit the moments that matter — all from your camera roll. Fully private — everything stays on your device.",
   keywords: [
@@ -23,16 +23,16 @@ export const metadata: Metadata = {
     "local-only",
   ],
   openGraph: {
-    title: "MyFlux — All your videos, beautifully organized.",
+    title: "MyVideoLooper — All your videos, beautifully organized.",
     description:
       "Stop scrolling. Start watching. Collect, loop, and revisit the moments that matter.",
     url: "https://getmyflux.com",
-    siteName: "MyFlux",
+    siteName: "MyVideoLooper",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MyFlux — All your videos, beautifully organized.",
+    title: "MyVideoLooper — All your videos, beautifully organized.",
     description:
       "Stop scrolling. Start watching. Collect, loop, and revisit the moments that matter.",
   },

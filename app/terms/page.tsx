@@ -5,8 +5,8 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — MyFlux",
-  description: "Terms of Use for the MyFlux iOS app.",
+  title: "Terms of Use — MyVideoLooper",
+  description: "Terms of Use for the MyVideoLooper iOS app.",
 };
 
 export default function TermsPage() {
@@ -29,14 +29,14 @@ export default function TermsPage() {
             </header>
 
             <p className="text-mxf-muted leading-relaxed">
-              By downloading and using MyFlux (&quot;the App&quot;), you agree
+              By downloading and using MyVideoLooper (&quot;the App&quot;), you agree
               to these Terms of Use.
             </p>
 
             <Section title="License">
               <p className="text-mxf-muted leading-relaxed">
                 We grant you a limited, non-exclusive, non-transferable,
-                revocable license to use MyFlux on your iOS devices, solely for
+                revocable license to use MyVideoLooper on your iOS devices, solely for
                 personal, non-commercial purposes, subject to Apple&apos;s App
                 Store Terms of Service.
               </p>
@@ -68,7 +68,7 @@ export default function TermsPage() {
 
             <Section title="Subscriptions">
               <p className="text-mxf-muted leading-relaxed">
-                MyFlux Pro is offered via an auto-renewable monthly
+                MyVideoLooper Pro is offered via an auto-renewable monthly
                 subscription and a one-time lifetime purchase, sold through
                 Apple&apos;s App Store. Subscriptions automatically renew until
                 cancelled. You can manage or cancel your subscription anytime

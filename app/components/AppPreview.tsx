@@ -16,7 +16,7 @@ export default function AppPreview() {
         <div className="mx-auto max-w-4xl">
           <Image
             src="/MyFlux - Promo v0.png"
-            alt="MyFlux on iPhone — Library, Collections, and Loop screens"
+            alt="MyVideoLooper on iPhone — Library, Collections, and Loop screens"
             width={1448}
             height={1086}
             className="w-full h-auto"
