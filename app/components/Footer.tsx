@@ -10,12 +10,12 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Image
               src="/app-icon.png"
-              alt="MyVideoLooper icon"
+              alt="MyLooper icon"
               width={24}
               height={24}
               className="rounded-md"
             />
-            <span className="font-semibold text-mxf-text">MyVideoLooper</span>
+            <span className="font-semibold text-mxf-text">MyLooper</span>
           </div>
 
           <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-mxf-muted">
@@ -37,7 +37,7 @@ export default function Footer() {
           </nav>
 
           <div className="flex flex-col items-center md:items-end gap-1 text-xs text-mxf-muted">
-            <span>© 2026 MyVideoLooper</span>
+            <span>© 2026 MyLooper</span>
           </div>
         </div>
       </div>

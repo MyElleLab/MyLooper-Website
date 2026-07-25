@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className="flex justify-center">
           <Image
             src="/MyFlux.png"
-            alt="MyVideoLooper app icon"
+            alt="MyLooper app icon"
             width={120}
             height={120}
             className="rounded-[26px] shadow-[0_20px_60px_rgba(245,158,11,0.25)]"
@@ -45,7 +45,7 @@ export default function HeroSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-mxf-text text-mxf-bg font-semibold text-sm hover:bg-mxf-amber transition-colors"
-            aria-label="Download MyVideoLooper on the App Store"
+            aria-label="Download MyLooper on the App Store"
           >
             <AppleIcon />
             Download on the App Store

@@ -31,7 +31,7 @@ export default function HowItWorks() {
             How it works
           </h2>
           <p className="text-mxf-muted max-w-xl mx-auto">
-            MyVideoLooper stores everything locally. No uploads, no tracking, no data
+            MyLooper stores everything locally. No uploads, no tracking, no data
             brokers.
           </p>
         </div>

@@ -5,9 +5,9 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — MyVideoLooper",
+  title: "Privacy Policy — MyLooper",
   description:
-    "MyVideoLooper collects no data. Everything stays on your device. Read our full privacy policy.",
+    "MyLooper collects no data. Everything stays on your device. Read our full privacy policy.",
 };
 
 export default function PrivacyPage() {
@@ -30,24 +30,24 @@ export default function PrivacyPage() {
             </header>
 
             <p className="text-mxf-muted leading-relaxed">
-              This Privacy Policy explains how MyVideoLooper handles information when
+              This Privacy Policy explains how MyLooper handles information when
               you use our iOS application.
             </p>
 
             <Section title="The Short Version">
               <div className="p-4 rounded-xl border border-mxf-amber-dim bg-mxf-amber-1/20">
                 <p className="text-mxf-muted leading-relaxed">
-                  MyVideoLooper does not collect, store, or transmit any personal data
-                  from your device. MyVideoLooper does not use analytics, tracking, or
+                  MyLooper does not collect, store, or transmit any personal data
+                  from your device. MyLooper does not use analytics, tracking, or
                   advertising frameworks. All your videos and collection data
                   stay on your iPhone.
                 </p>
               </div>
             </Section>
 
-            <Section title="What MyVideoLooper Accesses">
+            <Section title="What MyLooper Accesses">
               <p className="text-mxf-muted leading-relaxed">
-                MyVideoLooper requests permission to access your iOS Photos library so
+                MyLooper requests permission to access your iOS Photos library so
                 it can display and organize your videos. This access is
                 read-only and limited to your device. We do not upload, copy,
                 or transmit any video content to our servers or any third
@@ -62,10 +62,10 @@ export default function PrivacyPage() {
 
             <Section title="Subscriptions">
               <p className="text-mxf-muted leading-relaxed">
-                MyVideoLooper Pro is offered through Apple&apos;s App Store as an
+                MyLooper Pro is offered through Apple&apos;s App Store as an
                 in-app purchase. We use RevenueCat to validate purchase
                 receipts with Apple — this is the only network communication
-                MyVideoLooper performs. RevenueCat receives an Apple-issued anonymous
+                MyLooper performs. RevenueCat receives an Apple-issued anonymous
                 identifier and your purchase status to verify your
                 subscription. No personal information, email addresses, or
                 Apple ID details are shared.
@@ -79,7 +79,7 @@ export default function PrivacyPage() {
 
             <Section title="No Analytics, No Tracking">
               <p className="text-mxf-muted leading-relaxed">
-                MyVideoLooper does not include any third-party analytics, advertising,
+                MyLooper does not include any third-party analytics, advertising,
                 or tracking SDKs. We do not collect crash reports through third
                 parties. We may receive aggregated, anonymized crash reports
                 through Apple&apos;s first-party App Store Connect tools, which
@@ -89,17 +89,17 @@ export default function PrivacyPage() {
 
             <Section title="Children's Privacy">
               <p className="text-mxf-muted leading-relaxed">
-                MyVideoLooper is not directed to children under 13. We do not
+                MyLooper is not directed to children under 13. We do not
                 knowingly collect any data from anyone, including children.
               </p>
             </Section>
 
             <Section title="Your Rights">
               <p className="text-mxf-muted leading-relaxed">
-                Since MyVideoLooper does not collect personal data, there is no
+                Since MyLooper does not collect personal data, there is no
                 personal data to access, correct, or delete on our end. You can
                 delete all collection data stored on your device at any time
-                from MyVideoLooper → Settings → Withdraw Consent & Delete Data.
+                from MyLooper → Settings → Withdraw Consent & Delete Data.
               </p>
             </Section>
 
@@ -107,7 +107,7 @@ export default function PrivacyPage() {
               <p className="text-mxf-muted leading-relaxed">
                 We may update this policy from time to time. The
                 &quot;Effective&quot; date at the top indicates when it was
-                last revised. Continued use of MyVideoLooper after changes constitutes
+                last revised. Continued use of MyLooper after changes constitutes
                 acceptance of the updated policy.
               </p>
             </Section>
@@ -123,7 +123,7 @@ export default function PrivacyPage() {
                 </a>
               </p>
               <p className="text-mxf-muted leading-relaxed">
-                MyVideoLooper is developed by Leonardo Ferhati, based in Copenhagen,
+                MyLooper is developed by Leonardo Ferhati, based in Copenhagen,
                 Denmark.
               </p>
             </Section>
