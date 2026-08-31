@@ -15,7 +15,7 @@ export default function AppPreview() {
 
         <div className="mx-auto max-w-4xl">
           <Image
-            src="/MyLooper - Promo.png"
+            src="/MyLooper-Promo.png"
             alt="MyLooper on iPhone — Library, Collections, and Loop screens"
             width={1448}
             height={1086}
