@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://getmyflux.com"),
+  metadataBase: new URL("https://mylooper.myellelab.com"),
   title: "MyLooper — All your videos, beautifully organized.",
   description:
     "Collect, loop, and revisit the moments that matter — all from your camera roll. Fully private — everything stays on your device.",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "MyLooper — All your videos, beautifully organized.",
     description:
       "Stop scrolling. Start watching. Collect, loop, and revisit the moments that matter.",
-    url: "https://getmyflux.com",
+    url: "https://mylooper.myellelab.com",
     siteName: "MyLooper",
     type: "website",
   },

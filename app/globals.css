@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* MyFlux (mxf) Brand Colors — dark cinematic + amber/orange accent */
+  /* MyLooper (mxf) Brand Colors — dark cinematic + amber/orange accent */
   --color-mxf-bg:         #0b0a08;
   --color-mxf-surface:    #14110d;
   --color-mxf-border:     #2a2520;

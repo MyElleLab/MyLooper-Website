@@ -37,7 +37,7 @@ const faqs: { question: string; answer: string; link?: { text: string; href: str
   {
     question: "How do I request a refund?",
     answer:
-      "Apple handles all refunds. Visit reportaproblem.apple.com on any device, sign in, and request a refund for your MyLooper purchase. We have no control over the refund decision, but if you have concerns, email us at support@getmyflux.com and we'll do our best to help.",
+      "Apple handles all refunds. Visit reportaproblem.apple.com on any device, sign in, and request a refund for your MyLooper purchase. We have no control over the refund decision, but if you have concerns, email us at support@myellelab.com and we'll do our best to help.",
   },
   {
     question: "Where is my data stored?",
@@ -52,7 +52,7 @@ const faqs: { question: string; answer: string; link?: { text: string; href: str
   {
     question: "I have a feature idea or found a bug.",
     answer:
-      "Email support@getmyflux.com — we read every message and always appreciate user feedback.",
+      "Email support@myellelab.com — we read every message and always appreciate user feedback.",
   },
   {
     question: "Can I get MyLooper on Android?",

@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
         <div className="flex justify-center">
           <Image
-            src="/MyFlux.png"
+            src="/MyLooper.png"
             alt="MyLooper app icon"
             width={120}
             height={120}

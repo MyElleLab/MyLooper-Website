@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms" },
   title: "Terms of Use — MyLooper",
   description: "Terms of Use for the MyLooper iOS app.",
 };

@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy" },
   title: "Privacy Policy — MyLooper",
   description:
     "MyLooper collects no data. Everything stays on your device. Read our full privacy policy.",

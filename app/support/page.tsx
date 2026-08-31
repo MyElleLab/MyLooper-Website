@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "../constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/support" },
   title: "Support — MyLooper",
   description: "Get help with MyLooper. FAQ, contact, and more.",
 };
@@ -49,13 +50,13 @@ export default function SupportPage() {
             <p>
               Privacy Policy:{" "}
               <Link href="/privacy" className="text-mxf-amber hover:underline">
-                getmyflux.com/privacy
+                mylooper.myellelab.com/privacy
               </Link>
             </p>
             <p>
               Terms of Use:{" "}
               <Link href="/terms" className="text-mxf-amber hover:underline">
-                getmyflux.com/terms
+                mylooper.myellelab.com/terms
               </Link>
             </p>
           </section>
